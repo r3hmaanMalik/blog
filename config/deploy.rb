@@ -2,7 +2,7 @@
 lock "3.8.0"
 
 set :application, 'blog'
-set :repo_url, '<YOUR GIT REPO>'
+set :repo_url, 'https://github.com/r3hmaanMalik/blog.git'
 #example 'git@github.com :melissawahnish/ruby-thursday.git'
 set :user, "deploy"
 set :stages, %w(production staging)
